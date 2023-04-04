@@ -1,15 +1,15 @@
 #include "Game.h"
 #include "TextureManager.h"
-#include "GameObject.h"
 #include "Map.h"
+#include "Components.h"
+
 using namespace std;
 
-GameObject* player;
-GameObject* enemy;
 Map* map;
-
+Manager manager;
 
 SDL_Renderer* Game::renderer = nullptr;
+auto& player(manager.addEntity());
 
 Game::Game()
 {}
@@ -46,10 +46,11 @@ void Game::init(const char* title, int width, int height, bool fullscreen)
     } else {
         isRunning = false;
     }
-
-    player = new GameObject("assets/Player.png", 0, 0);
-    enemy = new GameObject("assets/Enemy.png", 50, 50);
     map = new Map();
+
+    player.addComponent<PositionComponent>();
+    player.addComponent<SpriteComponent>("assets/Player.png");
+
 }
 
 void Game::handleEvents()
@@ -68,16 +69,20 @@ void Game::handleEvents()
 
 void Game::update()
 {
-    player -> Update();
-    enemy -> Update();
+    manager.refresh();
+    manager.update();
+
+    if(player.getComponent<PositionComponent>().x() > 100)
+    {
+        player.getComponent<SpriteComponent>().setTex("assets/Enemy.png");
+    }
 }
 
 void Game::render()
 {
     SDL_RenderClear(renderer);
     map -> DrawMap();
-    player -> Render();
-    enemy -> Render();
+    manager.draw();
     SDL_RenderPresent(renderer);
 }
 

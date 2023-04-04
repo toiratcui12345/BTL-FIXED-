@@ -21,11 +21,11 @@
 	<iostream>
 	<SDL_image.h>
 
-1680107884 c:\users\84917\desktop\testsdl\mygame\game.cpp
+1680193233 c:\users\84917\desktop\testsdl\mygame\game.cpp
 	"Game.h"
 	"TextureManager.h"
-	"GameObject.h"
 	"Map.h"
+	"Components.h"
 
 1680107884 c:\users\84917\desktop\testsdl\mygame\texturemanager.h
 	"Game.h"
@@ -33,7 +33,7 @@
 1680106227 c:\users\84917\desktop\testsdl\mygame\gameobject.h
 	"Game.h"
 
-1680107884 source:c:\users\84917\desktop\testsdl\mygame\texturemanager.cpp
+1680192929 source:c:\users\84917\desktop\testsdl\mygame\texturemanager.cpp
 	"TextureManager.h"
 
 1680106227 source:c:\users\84917\desktop\testsdl\mygame\gameobject.cpp
@@ -50,4 +50,24 @@
 1680107969 source:c:\users\84917\desktop\testsdl\mygame\map.cpp
 	"Map.h"
 	"TextureManager.h"
+
+1680190907 c:\users\84917\desktop\testsdl\mygame\ecs.h
+	<iostream>
+	<vector>
+	<memory>
+	<algorithm>
+	<bitset>
+	<array>
+
+1680191280 c:\users\84917\desktop\testsdl\mygame\components.h
+	"ECS.h"
+	"PositionComponent.h"
+	"SpriteComponent.h"
+
+1680192760 c:\users\84917\desktop\testsdl\mygame\positioncomponent.h
+	"Components.h"
+
+1680193074 c:\users\84917\desktop\testsdl\mygame\spritecomponent.h
+	"Components.h"
+	"SDL.h"
 

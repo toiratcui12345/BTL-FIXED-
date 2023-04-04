@@ -32,12 +32,18 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Components.h" />
+		<Unit filename="ECS.h" />
 		<Unit filename="Game.cpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="Game.h" />
 		<Unit filename="GameObject.cpp" />
 		<Unit filename="GameObject.h" />
+		<Unit filename="Map.cpp" />
+		<Unit filename="Map.h" />
+		<Unit filename="PositionComponent.h" />
+		<Unit filename="SpriteComponent.h" />
 		<Unit filename="TextureManager.cpp" />
 		<Unit filename="TextureManager.h" />
 		<Unit filename="main.cpp" />
