@@ -49,6 +49,7 @@
 		<Unit filename="SpriteComponent.h" />
 		<Unit filename="TextureManager.cpp" />
 		<Unit filename="TextureManager.h" />
+		<Unit filename="TileComponent.h" />
 		<Unit filename="TransformComponent.h" />
 		<Unit filename="Vector2D.cpp" />
 		<Unit filename="Vector2D.h" />
