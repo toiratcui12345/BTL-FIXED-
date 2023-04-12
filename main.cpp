@@ -1,44 +1,28 @@
-#include <iostream>
 #include <SDL.h>
-#include <SDL_image.h>
+#undef main
 #include "Game.h"
-#include "Game.cpp"
-#include "GameObject.h"
 
-using namespace std;
-
-Game *game = nullptr;
-
-int main(int argc, char** args)
+int main()
 {
-    const int FPS = 60;
-    const int frameDelay = 1000 / FPS;
 
-    Uint32 frameStart;
-    int frameTime;
-
-    game = new Game();
-
-    game -> init("MyGame", 800, 640, false);
-
-    while (game -> running()){
+	Game game;
 
 
+	game.init("Snake", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 700, 700, false);
 
-        frameStart = SDL_GetTicks();
+	while (game.running())
+	{
+		game.handleEvents();
+		game.update();
+		game.render();
 
-        game->handleEvents();
-        game -> update();
-        game -> render();
 
-        frameTime = SDL_GetTicks() - frameStart;
+	}
 
-        if (frameDelay > frameTime)
-        {
-            SDL_Delay(frameDelay - frameTime);
-        }
-    }
 
-    game -> clean();
-    return 0;
+	game.clean();
+
+
+
+	return 0;
 }

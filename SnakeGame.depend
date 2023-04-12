@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1681271705 source:c:\snakegame\main.cpp
+	<SDL.h>
+	"Game.h"
+
+1681271705 c:\snakegame\game.h
+	<sdl.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<iostream>
+	<vector>
+
+1681272456 source:c:\snakegame\game.cpp
+	<vector>
+	<string>
+	<ctime>
+	"Game.h"
+
