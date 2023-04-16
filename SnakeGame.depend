@@ -1,18 +1,181 @@
 # depslib dependency file v1.0
-1681271705 source:c:\snakegame\main.cpp
+1681274180 source:c:\snakegame\main.cpp
 	<SDL.h>
 	"Game.h"
 
-1681271705 c:\snakegame\game.h
+1681276673 c:\snakegame\game.h
 	<sdl.h>
 	<SDL_image.h>
 	<SDL_mixer.h>
 	<iostream>
 	<vector>
 
-1681272456 source:c:\snakegame\game.cpp
-	<vector>
-	<string>
-	<ctime>
+1681276013 source:c:\snakegame\game.cpp
+	<bits/stdc++.h>
 	"Game.h"
+
+1681316536 source:c:\users\84917\desktop\mysnake\snakegame\game.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"defines.h"
+	"game.h"
+	"objects.h"
+	"graphics.h"
+
+1681313267 c:\users\84917\desktop\mysnake\snakegame\defines.h
+
+1681313322 c:\users\84917\desktop\mysnake\snakegame\game.h
+	<SDL.h>
+	"graphics.h"
+	"objects.h"
+
+1681313267 c:\users\84917\desktop\mysnake\snakegame\graphics.h
+	<stdlib.h>
+
+1681313267 c:\users\84917\desktop\mysnake\snakegame\objects.h
+
+1681313755 source:c:\users\84917\desktop\mysnake\snakegame\graphics.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"defines.h"
+	"game.h"
+	"objects.h"
+	"graphics.h"
+
+1681313755 source:c:\users\84917\desktop\mysnake\snakegame\objects.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"defines.h"
+	"game.h"
+	"objects.h"
+	"graphics.h"
+
+1681313394 source:c:\users\84917\desktop\mysnake\snakegame\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<bits/stdc++.h>
+	"defines.h"
+	"game.h"
+	"objects.h"
+	"graphics.h"
+
+1681652299 source:c:\users\tuan anh\downloads\btl-fixed--main\snakegame\game.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"defines.h"
+	"game.h"
+	"objects.h"
+	"graphics.h"
+
+1681652300 c:\users\tuan anh\downloads\btl-fixed--main\snakegame\defines.h
+
+1681652299 c:\users\tuan anh\downloads\btl-fixed--main\snakegame\game.h
+	<SDL.h>
+	"graphics.h"
+	"objects.h"
+
+1681652300 c:\users\tuan anh\downloads\btl-fixed--main\snakegame\graphics.h
+	<stdlib.h>
+
+1681652300 c:\users\tuan anh\downloads\btl-fixed--main\snakegame\objects.h
+
+1681652300 source:c:\users\tuan anh\downloads\btl-fixed--main\snakegame\graphics.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"defines.h"
+	"game.h"
+	"objects.h"
+	"graphics.h"
+
+1681652300 source:c:\users\tuan anh\downloads\btl-fixed--main\snakegame\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<bits/stdc++.h>
+	"defines.h"
+	"game.h"
+	"objects.h"
+	"graphics.h"
+
+1681652300 source:c:\users\tuan anh\downloads\btl-fixed--main\snakegame\objects.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"defines.h"
+	"game.h"
+	"objects.h"
+	"graphics.h"
+
+1681655822 source:c:\users\tuan anh\documents\snakegame\game.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<iostream>
+	"defines.h"
+	"game.h"
+	"objects.h"
+	"graphics.h"
+
+1681652300 c:\users\tuan anh\documents\snakegame\defines.h
+
+1681655619 c:\users\tuan anh\documents\snakegame\game.h
+	<SDL.h>
+	"graphics.h"
+	"objects.h"
+	<SDL_mixer.h>
+
+1681652300 c:\users\tuan anh\documents\snakegame\graphics.h
+	<stdlib.h>
+
+1681652300 c:\users\tuan anh\documents\snakegame\objects.h
+
+1681652300 source:c:\users\tuan anh\documents\snakegame\graphics.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"defines.h"
+	"game.h"
+	"objects.h"
+	"graphics.h"
+
+1681652300 source:c:\users\tuan anh\documents\snakegame\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<bits/stdc++.h>
+	"defines.h"
+	"game.h"
+	"objects.h"
+	"graphics.h"
+
+1681652300 source:c:\users\tuan anh\documents\snakegame\objects.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"defines.h"
+	"game.h"
+	"objects.h"
+	"graphics.h"
 

@@ -1,28 +1,15 @@
 #include <SDL.h>
-#undef main
-#include "Game.h"
+#include <SDL_image.h>
+#include <bits/stdc++.h>
+#include "defines.h"
 
-int main()
-{
+#include "game.h"
+#include "objects.h"
+#include "graphics.h"
 
-	Game game;
-
-
-	game.init("Snake", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 700, 700, false);
-
-	while (game.running())
-	{
-		game.handleEvents();
-		game.update();
-		game.render();
-
-
-	}
-
-
-	game.clean();
-
-
-
-	return 0;
+int main(int argc, char* argv[]) {
+  Application app;
+  app.appInit();
+  app.appLoop();
+  return 0;
 }
