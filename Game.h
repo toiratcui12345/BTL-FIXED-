@@ -2,7 +2,6 @@
 #include <SDL.h>
 #include "graphics.h"
 #include "objects.h"
-#include <SDL_mixer.h>
 
 class Application{
 public:
