@@ -15,7 +15,7 @@ private:
     SDL_Renderer* renderer;
     Playground* Room;
     SDL_Event event; // Bind keyboard/mouse events
-    Snake* Nico;
+    Snake* Nico; // Tên con rắn: Nico
     Fruit* Apple;
     Uint32 frame_rate;
     Uint32 snake_rate;

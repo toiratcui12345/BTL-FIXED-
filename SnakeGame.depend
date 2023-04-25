@@ -27,37 +27,30 @@
 	"objects.h"
 	"graphics.h"
 
-1681313267 c:\users\84917\desktop\mysnake\snakegame\defines.h
+1682346190 c:\users\84917\desktop\mysnake\snakegame\defines.h
 
-1681313322 c:\users\84917\desktop\mysnake\snakegame\game.h
+1682393231 c:\users\84917\desktop\mysnake\snakegame\game.h
 	<SDL.h>
 	"graphics.h"
 	"objects.h"
 
-1681313267 c:\users\84917\desktop\mysnake\snakegame\graphics.h
+1682346523 c:\users\84917\desktop\mysnake\snakegame\graphics.h
 	<stdlib.h>
 
-1681313267 c:\users\84917\desktop\mysnake\snakegame\objects.h
+1682352129 c:\users\84917\desktop\mysnake\snakegame\objects.h
 
-1681313755 source:c:\users\84917\desktop\mysnake\snakegame\graphics.cpp
+1682347740 source:c:\users\84917\desktop\mysnake\snakegame\graphics.cpp
 	<SDL.h>
 	<SDL_image.h>
-	<stdio.h>
-	<stdlib.h>
-	<time.h>
+	<bits/stdc++.h>
 	"defines.h"
-	"game.h"
-	"objects.h"
 	"graphics.h"
 
-1681313755 source:c:\users\84917\desktop\mysnake\snakegame\objects.cpp
+1682393231 source:c:\users\84917\desktop\mysnake\snakegame\objects.cpp
 	<SDL.h>
 	<SDL_image.h>
-	<stdio.h>
-	<stdlib.h>
-	<time.h>
+	<bits/stdc++.h>
 	"defines.h"
-	"game.h"
 	"objects.h"
 	"graphics.h"
 

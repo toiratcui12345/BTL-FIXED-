@@ -11,9 +11,9 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-  Application app;
-  app.appInit();
+    Application app;
+    app.appInit();
 
-  app.appLoop();
-  return 0;
+    app.appLoop();
+    return 0;
 }

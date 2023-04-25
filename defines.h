@@ -1,9 +1,9 @@
 // SCREEN AND GRID
 #define SCREEN_WIDTH 1280
 #define SCREEN_HEIGHT 750
-#define TILE_SIZE 32
-#define GRID_WIDTH 37
-#define GRID_HEIGHT 18
+#define TILE_SIZE 32 ///Kích thước ô vuông
+#define GRID_WIDTH 37 //Số ô chiều ngang
+#define GRID_HEIGHT 18 //Số ô chiều dọc
 
 // FRUITS TYPES
 #define FRUIT_APPLE 0
